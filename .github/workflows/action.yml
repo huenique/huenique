@@ -18,9 +18,8 @@ jobs:
           # Options
           user: huenique
           template: classic
-          base: header, activity, repositories, metadata
+          base: activity, repositories
           config_timezone: Asia/Manila
-          config_twemoji: yes
           plugin_gists: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
