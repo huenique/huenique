@@ -1,8 +1,7 @@
-
 <div align="center">
     <h1>Welcome to my GitHub profile! ✨</h1>
-    <p><img src="https://github.com/huenique/huenique/blob/main/gifs/Hi.gif?raw=true" width="30px">
-    Hey there! I'm Hju Kneyck, an Information Technology student majoring in Web and Mobile Application Development at <a href="https://en.wikipedia.org/wiki/Manuel_S._Enverga_University_Foundation">Manuel S. Enverga University Foundation</a>. My focus is on solving problems and providing solutions for home and office productivity. I'm an avid developer of those types, but I also take on a variety of projects.</p>
+    <p><img src="https://github.com/huenique/huenique/blob/main/gifs/Hi.gif?raw=true" width="30px"><b>
+    Hey there! I'm Hju Kneyck, an aspiring software developer who's passionate about solving business problems and building ambitious software products. Looking to work on new, exciting projects with other passionate, like-minded people.</b></p>
     <table>
         <tr>
             <th>Languages</th>
@@ -22,7 +21,7 @@
     <image src="https://github-readme-streak-stats.herokuapp.com/?user=huenique&theme=midnight-purple" />
 </div>
 
-----
+---
 
 <div align="center">
     <details>
