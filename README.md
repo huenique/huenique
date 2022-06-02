@@ -1,24 +1,25 @@
 <div align="center">
-    <h1>Welcome to my GitHub profile! ✨</h1>
-    <p><img src="https://github.com/huenique/huenique/blob/main/gifs/Hi.gif?raw=true" width="30px"><b>
-    Hey there! I'm Hju Kneyck, an aspiring software developer who's passionate about solving business problems and building ambitious software products.
-    <table>
-        <tr>
-            <th>Languages</th>
-            <th>Stats</th>
-        </tr>
-        <tr>
-            <td>
-                <image
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=huenique&theme=midnight-purple&layout=compact&hide_title=true&langs_count=8&card_width=380" alt="languages" />
-            </td>
-            <td>
-                <image
-                    src="https://github-readme-stats.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
-            </td>
-        </tr>
-    </table>
-    <image src="https://github-readme-streak-stats.herokuapp.com/?user=huenique&theme=midnight-purple" />
+    <h1><span><img src="https://github.com/huenique/huenique/blob/main/gifs/Hi.gif?raw=true" width="30" height="30"><span> Welcome to my GitHub profile!</h1>
+    <p>
+        Hey there! I'm <b>Hju Kneyck</b>, an aspiring software developer who's passionate about solving business problems and building ambitious software products.
+        <table>
+            <tr>
+                <th>Languages</th>
+                <th>Stats</th>
+            </tr>
+            <tr>
+                <td>
+                    <image
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=huenique&theme=midnight-purple&layout=compact&hide_title=true&langs_count=8&card_width=380" alt="languages" />
+                </td>
+                <td>
+                    <image
+                        src="https://github-readme-stats.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
+                </td>
+            </tr>
+        </table>
+        <image src="https://github-readme-streak-stats.herokuapp.com/?user=huenique&theme=midnight-purple" />
+    </p>
 </div>
 
 ---
