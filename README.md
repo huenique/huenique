@@ -1,7 +1,7 @@
 <div align="center">
     <h1><span><img src="https://github.com/huenique/huenique/blob/main/gifs/Hi.gif?raw=true" width="30" height="30"><span> Welcome to my GitHub profile!</h1>
     <p>
-        Hey there! I'm <b>Hju Kneyck</b>, an aspiring software developer who's passionate about solving business problems and building ambitious software products.
+        Hey there! I'm <b>Hju Kneyck</b>, a software developer who's passionate about solving business problems and building ambitious software products.
         <table>
             <tr>
                 <th>Languages</th>
