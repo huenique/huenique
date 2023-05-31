@@ -10,11 +10,11 @@
             <tr>
                 <td>
                     <image
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=huenique&theme=midnight-purple&layout=compact&hide_title=true&langs_count=8&card_width=380" alt="languages" />
+                        src="https://github-readme-stats-huenique.vercel.app/api/top-langs/?username=huenique&theme=midnight-purple&layout=compact&hide_title=true&langs_count=8&card_width=380" alt="languages" />
                 </td>
                 <td>
                     <image
-                        src="https://github-readme-stats.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
+                        src="https://github-readme-stats-huenique.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
                 </td>
             </tr>
         </table>
