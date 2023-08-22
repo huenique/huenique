@@ -5,15 +5,18 @@
         <table>
             <tr>
                 <th>Stats</th>
+                <th>Contributions</th>
             </tr>
             <tr>
                 <td>
                     <image
                         src="https://github-readme-stats-huenique.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
                 </td>
+                <td>
+                    <image src="https://github-readme-streak-stats.herokuapp.com/?user=huenique&theme=midnight-purple" />
+                </td>
             </tr>
         </table>
-        <image src="https://github-readme-streak-stats.herokuapp.com/?user=huenique&theme=midnight-purple" />
     </p>
 </div>
 
