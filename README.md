@@ -4,14 +4,9 @@
         Hey there! I'm <b>Hju Kneyck</b>, a software developer who's passionate about solving business problems and building ambitious software products.
         <table>
             <tr>
-                <th>Languages</th>
                 <th>Stats</th>
             </tr>
             <tr>
-                <td>
-                    <image
-                        src="https://github-readme-stats-huenique.vercel.app/api/top-langs/?username=huenique&theme=midnight-purple&layout=compact&hide_title=true&langs_count=8&card_width=380" alt="languages" />
-                </td>
                 <td>
                     <image
                         src="https://github-readme-stats-huenique.vercel.app/api?username=huenique&theme=midnight-purple&hide_title=true" alt="stats" />
