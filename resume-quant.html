@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hju Kneyck Flores – Quantitative Developer Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Theme tokens: edit these to restyle the whole document ---------- */
+  :root {
+    --font-display: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
+    --font-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Segoe UI", Helvetica, Arial, sans-serif;
+    --ink: #1a1a18;        /* name, section headings, company names, rules */
+    --muted: #4a4a46;      /* body copy, roles, dates, contact line */
+    --paper: #ffffff;
+    --page-w: 210mm;       /* A4 */
+    --page-h: 297mm;
+    --page-margin: 0.4in;  /* printer margin; content padding is added inside it */
+    --pad-top: 40px;
+    --pad-right: 38px;
+    --pad-bottom: 40px;
+    --pad-left: 40px;
+  }
+
+  * { box-sizing: border-box; }
+  .page { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  html { background: #e9e9e6; }
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 11pt;
+    line-height: 1.5;
+    color: var(--muted);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .page {
+    width: var(--page-w);
+    min-height: var(--page-h);
+    margin: 24px auto;
+    padding: calc(var(--page-margin) + var(--pad-top)) calc(var(--page-margin) + var(--pad-right))
+             calc(var(--page-margin) + var(--pad-bottom)) calc(var(--page-margin) + var(--pad-left));
+    background: var(--paper);
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ---------- Header ---------- */
+  .header { margin-bottom: 22px; }
+  .name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin: 0;
+    position: relative;
+    top: -6px;             /* optical nudge; keeps the rest of the flow unchanged */
+  }
+  .tagline {
+    font-size: 12.5pt;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    margin: 0 0 5px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 14px;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* ---------- Sections ---------- */
+  .section { margin-top: 14px; }
+  .section-title {
+    font-size: 10.5pt;
+    font-weight: 500;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .skills {
+    font-size: 11pt;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ---------- Entries (experience / education) ---------- */
+  .entry { margin-bottom: 10px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    line-height: 1.25;
+  }
+  .entry-org {
+    font-size: 12pt;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+  }
+  .entry-dates {
+    font-size: 11pt;
+    white-space: nowrap;
+  }
+  .entry-role {
+    font-style: italic;
+    font-size: 11pt;
+    margin: 0 0 3px;
+  }
+  .bullets {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.35;
+  }
+  .bullets li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 2px;
+  }
+  .bullets li:last-child { margin-bottom: 0; }
+
+  /* Keep an entry's heading and role with at least its first bullet; never split a bullet across pages */
+  .entry-head, .entry-role { break-after: avoid; }
+  .bullets li { break-inside: avoid; }
+  .bullets li::before {
+    /* A text glyph, not a background box: browsers drop background graphics when printing by default */
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    text-align: center;
+    color: var(--muted);
+  }
+
+  /* ---------- Print ---------- */
+  @page { size: A4; margin: 0.4in; }
+  @media print {
+    html { background: none; }
+    .page {
+      width: auto;
+      min-height: 0;
+      margin: 0;
+      padding: var(--pad-top) var(--pad-right) 0 var(--pad-left); /* no bottom padding: the @page margin already provides it */
+      box-shadow: none;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <!-- ======================= HEADER ======================= -->
+  <header class="header">
+    <h1 class="name">Hju Kneyck Flores</h1>
+    <p class="tagline">Quantitative Developer — Trading Systems, Execution &amp; Market Microstructure</p>
+    <ul class="contact">
+      <li>Philippines</li>
+      <li><a href="mailto:hjucode@gmail.com">hjucode@gmail.com</a></li>
+      <li><a href="https://github.com/huenique">github.com/huenique</a></li>
+    </ul>
+  </header>
+
+  <!-- ======================= SKILLS ======================= -->
+  <section class="section">
+    <h2 class="section-title">Skills</h2>
+    <p class="skills">Python, Rust, TypeScript, SQL · Quantitative strategy design and validation · Backtesting and simulation · Statistical modeling and risk analysis · Low-latency and real-time systems engineering · Execution and market-data infrastructure · API and data pipeline design · Applied LLM integration</p>
+  </section>
+
+  <!-- ======================= EXPERIENCE ======================= -->
+  <section class="section">
+    <h2 class="section-title">Experience</h2>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">Independent Contractor</h3>
+        <span class="entry-dates">Sep 2020 – Present</span>
+      </div>
+      <p class="entry-role">Quantitative Systems Engineer</p>
+      <ul class="bullets">
+        <li>Architected a multi-strategy crypto trading desk running delta-neutral funding-rate arbitrage across 12 perpetual venues, with atomic two-leg entry, fail-closed slippage checks, and liquidity-paced unwind. Live on 9 venues with 2,200+ tests; scanner latency cut from 79s to 1.3s.</li>
+        <li>Deployed an autonomous earn-carry bot that pairs exchange yield products with short-perp funding, executing through a TWAP engine with full P&amp;L accounting. Runs unattended on 8-hour cycles with kill-switch controls after screening 780 coins for valid carry.</li>
+        <li>Engineered a moving-average-anchored grid market-making engine for spot and perpetuals with post-only ladders, an inventory cap, and take-profit re-pricing. Shipped with an 8-endpoint API, a monitoring UI, and a live multi-pair dry run before arming.</li>
+        <li>Modeled a daily BTC options wheel with a 20,000-path GARCH-t Monte Carlo and a 2021–2026 historical backtest on real vol and funding data. Proved the bare wheel has no edge beyond the volatility risk premium and the hedged variant flips negative on a 5-vol-point tenor error, stopping a capital deployment.</li>
+        <li>Operated a Polymarket lead-lag scalping fleet across 7 crypto markets in two regions with entry gates and a settlement kill switch (119 trades, 96.6% win rate, ~450ms end-to-end). A depth-aware fill model then showed the strategy flips negative between $1 and $10 per leg, killing it before scale.</li>
+        <li>Designed LOBSIM, a synthetic limit-order-book simulator with a price-time matching engine, four interacting agent types that produce emergent spreads and depth, a WebSocket L1/L2 feed, and latency injection. Used to test execution logic and exchange connectivity without touching a live venue.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">KodeCraft OPC</h3>
+        <span class="entry-dates">May 2023 – Dec 2024</span>
+      </div>
+      <p class="entry-role">Products &amp; Systems Engineer</p>
+      <ul class="bullets">
+        <li>Launched a high-performance crypto derivatives trading dashboard with automated real-time data ingestion, reducing end-to-end execution latency from ~30s to under 10ms.</li>
+        <li>Engineered a robust risk and execution framework using live market feeds and advanced analytics to improve fill rates and minimize slippage.</li>
+        <li>Maintained and optimized market making and liquidity-provisioning infrastructure handling large volumes of real-time cryptocurrency market data.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">Independent Contractor</h3>
+        <span class="entry-dates">Jan 2025 – Present</span>
+      </div>
+      <p class="entry-role">AI Systems Engineer &amp; Agentic Automation Architect</p>
+      <ul class="bullets">
+        <li>Delivered a web traffic estimator that reconciles a trained model with conformal intervals, a calibrated rank curve, and LLM research agents through a reviewer loop. Validated on real measured traffic at 76% within 2× with no systematic bias, matching a commercial panel provider on accuracy at a fraction of the cost.</li>
+        <li>Implemented a 14-agent Gemini video analysis platform that converts raw video into schema-locked JSON behind a validation gate and an async job API. Benchmarked it against a self-hosted vision model and kept Gemini at 3–5× lower cost, 2× faster, and 10/10 reliability.</li>
+        <li>Shipped a production competitor-commercial alert service on Azure Functions and Cosmos DB that detects new TV spots within 10 minutes, then mined its 746k-creative database into exposure-weighted industry trend reports covering 6,000+ creatives for under $15 in AI spend.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">ULTiM8 Outsource Solutions Corp.</h3>
+        <span class="entry-dates">Mar 2025 – Dec 2025</span>
+      </div>
+      <p class="entry-role">Independent Software Developer</p>
+      <ul class="bullets">
+        <li>Served as technology delivery partner on client projects, ensuring production-ready systems within scoped engagements.</li>
+        <li>Executed product-oriented engineering, translating requirements into reliable, scalable solutions.</li>
+        <li>Collaborated with client technical and product leads to align delivery with business goals and timelines.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">Tereo.AI</h3>
+        <span class="entry-dates">Mar 2025 – Dec 2025</span>
+      </div>
+      <p class="entry-role">ETL Specialist</p>
+      <ul class="bullets">
+        <li>Partnered with founders to deliver core product and platform initiatives for AI brand protection.</li>
+        <li>Constructed scalable web scraping pipelines powering data ingestion and intelligence workflows.</li>
+        <li>Translated product vision into reliable, production-grade systems enabling rapid iteration.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">Halcyon Agile</h3>
+        <span class="entry-dates">Jan 2023 – Apr 2023</span>
+      </div>
+      <p class="entry-role">Independent Software Developer</p>
+      <ul class="bullets">
+        <li>Led the development of an Early Grade Learning (EGL) website, implementing data-driven features that enhanced the platform&rsquo;s accessibility and user engagement.</li>
+        <li>Increased operational productivity by promoting the adoption of modern tech stacks, resulting in faster development cycles and improved application performance.</li>
+        <li>Developed custom boilerplate code for projects, reducing the setup time for new features and allowing the team to quickly deliver solutions to clients.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">SurPath Hub</h3>
+        <span class="entry-dates">Jun 2021 – Jan 2023</span>
+      </div>
+      <p class="entry-role">Operations &amp; Project Manager</p>
+      <ul class="bullets">
+        <li>Managed open-source projects, driving external contributions and enhancing community visibility, which resulted in a 100% increase in contributor engagement.</li>
+        <li>Created operational tools that improved workflow efficiency and reduced process completion time by over 30%.</li>
+        <li>Implemented agile project management practices, accelerating deliverables and increasing client satisfaction through faster iteration and product releases.</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- ======================= EDUCATION ======================= -->
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3 class="entry-org">Manuel S. Enverga University Foundation</h3>
+        <span class="entry-dates">Jul 2019 – May 2023</span>
+      </div>
+      <p class="entry-role">Bachelor&rsquo;s of Science, Information Technology</p>
+    </article>
+  </section>
+
+</main>
+</body>
+</html>
