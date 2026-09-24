@@ -1,15 +1,6 @@
 I build crypto trading systems, then try to break them before the market does.
 
-```text
-$ hju --status
-building ............. hedged crypto trading systems
-live on .............. 9 perpetual exchanges
-tests ................ 4,000+
-basis scan ........... 528 pairs in 1.3s, down from 79s
-results against me ... 3, all written up
-stack ................ Python, Rust, TypeScript, SQL
-based in ............. the Philippines, UTC+8
-```
+<img src="assets/terminal.svg" width="720" alt="$ hju --status. building: hedged crypto trading systems. live on: 16 exchanges. focus: execution, hedging, market microstructure. stack: Python, Rust, TypeScript, SQL. based in: the Philippines, UTC+8.">
 
 **Things the market taught me**
 

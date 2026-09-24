@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="214" viewBox="0 0 720 214" role="img" aria-labelledby="t d">
+  <title id="t">hju --status</title>
+  <desc id="d">building: hedged crypto trading systems. live on: 16 exchanges. focus: execution, hedging, and market microstructure. stack: Python, Rust, TypeScript, SQL. based in: the Philippines, UTC+8.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; white-space: pre; }
+    .p { fill: #3fb950; } .c { fill: #e6edf3; } .k { fill: #8b949e; } .dot { fill: #484f58; } .v { fill: #e6edf3; }
+    .out { opacity: 0; animation: show 0s forwards; }
+    .l1 { animation-delay: 2.1s; } .l2 { animation-delay: 2.35s; } .l3 { animation-delay: 2.6s; }
+    .l4 { animation-delay: 2.85s; } .l5 { animation-delay: 3.1s; } .l6 { animation-delay: 3.5s; }
+    .typer { animation: type 1.3s steps(12, end) 0.5s forwards; }
+    .caret1 { animation: blink 0.5s step-end 0s 4, hide 0s 1.9s forwards; }
+    .caret2 { opacity: 0; animation: show 0s 3.5s forwards, blink 1s step-end 3.5s infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes hide { to { opacity: 0; } }
+    @keyframes type { to { transform: translateX(101px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .out, .caret2 { opacity: 1; animation: none; } .typer, .caret1 { display: none; animation: none; }
+    }
+  </style>
+  <rect width="720" height="214" rx="8" fill="#0d1117"/>
+  <rect width="720" height="30" rx="8" fill="#161b22"/>
+  <rect y="22" width="720" height="8" fill="#161b22"/>
+  <circle cx="18" cy="15" r="5.5" fill="#ff5f57"/><circle cx="36" cy="15" r="5.5" fill="#febc2e"/><circle cx="54" cy="15" r="5.5" fill="#28c840"/>
+  <text x="360" y="19" text-anchor="middle" class="k" style="font-size:12px">hju@desk: ~</text>
+
+  <text x="20" y="58"><tspan class="p">$ </tspan><tspan class="c">hju --status</tspan></text>
+  <g class="typer">
+    <rect class="caret1" x="37" y="45" width="8" height="17" fill="#e6edf3"/>
+    <rect x="45" y="44" width="150" height="20" fill="#0d1117"/>
+  </g>
+
+  <text x="20" y="84" class="out l1"><tspan class="k">building </tspan><tspan class="dot">...........</tspan><tspan class="v"> hedged crypto trading systems</tspan></text>
+  <text x="20" y="106" class="out l2"><tspan class="k">live on </tspan><tspan class="dot">............</tspan><tspan class="v"> 16 exchanges</tspan></text>
+  <text x="20" y="128" class="out l3"><tspan class="k">focus </tspan><tspan class="dot">..............</tspan><tspan class="v"> execution, hedging, market microstructure</tspan></text>
+  <text x="20" y="150" class="out l4"><tspan class="k">stack </tspan><tspan class="dot">..............</tspan><tspan class="v"> Python, Rust, TypeScript, SQL</tspan></text>
+  <text x="20" y="172" class="out l5"><tspan class="k">based in </tspan><tspan class="dot">...........</tspan><tspan class="v"> the Philippines, UTC+8</tspan></text>
+  <text x="20" y="198" class="out l6"><tspan class="p">$ </tspan></text>
+  <rect class="caret2" x="37" y="185" width="8" height="17" fill="#e6edf3"/>
+</svg>
