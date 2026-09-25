@@ -1,6 +1,8 @@
 **About me**
 
-Software engineer in the Philippines. I started out writing scrapers and small apps for problems around me, like a PHLPost delivery notifier and an SMS gateway that ran on an Android phone. Since then I've built trading infrastructure, data pipelines, and production AI systems. On the side, I run my own trading desk. These days I work as an independent solutions architect
+Software engineer in the Philippines. I started out writing scrapers and small apps for problems around me, like a PHLPost delivery notifier and an SMS gateway that ran on an Android phone. Since then I've built trading infrastructure, data pipelines, and production AI systems. On the side, I run my own trading desk. These days I work as an independent solutions architect.
+
+**The trading desk**
 
 I build crypto trading systems, then try to break them before the market does.
 
